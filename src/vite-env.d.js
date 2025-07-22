@@ -1,0 +1,1 @@
+// Vite environment variables for JSX
