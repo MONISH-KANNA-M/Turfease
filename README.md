@@ -54,15 +54,21 @@ Booking sports turfs is often inconvenient due to:
 ---
 
 ## 📂 Project Structure
+
+```
+
 Turf_Ease/
 │
-├── static/ # CSS, JS, Images
-├── templates/ # HTML files
-├── routes/ # Backend routes
-├── models/ # Database models
-├── database/ # DB configuration
-├── app.py / server.js # Main application file
+├── static/              # CSS, JS, Images
+├── templates/           # HTML files
+├── routes/              # Backend routes
+├── models/              # Database models
+├── database/            # DB configuration
+├── app.py / server.js   # Main application file
 ├── requirements.txt / package.json
+└── README.md
+
+````
 
 ---
 
@@ -79,23 +85,81 @@ Turf_Ease/
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/Turf_Ease.git
+````
+
+2. Navigate to project directory:
+
+```bash
 cd Turf_Ease
-pip install -r requirements.txt
-python app.pynpm install
-npm start
 ```
-http://127.0.0.1:5000
-or 
-http://localhost:3000
-
-📊 System Workflow
-User registers/logs in
-Searches for available turfs
-Selects preferred time slot
-Confirms booking
-Admin manages bookings and updates availability
-
 
 ---
 
+### ▶️ Run (Python - Flask)
 
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+### ▶️ Run (Node.js - Express)
+
+```bash
+npm install
+npm start
+```
+
+---
+
+### 🌐 Access the App
+
+Open your browser and go to:
+
+```
+http://127.0.0.1:5000
+```
+
+or
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📊 System Workflow
+
+1. User registers/logs in
+2. Searches for available turfs
+3. Selects preferred time slot
+4. Confirms booking
+5. Admin manages bookings and updates availability
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Booking Page | Admin Dashboard |
+| --------- | ------------ | --------------- |
+| Add Image | Add Image    | Add Image       |
+
+---
+
+## 🔐 Future Enhancements
+
+* 💳 Online payment integration
+* 📍 Google Maps integration
+* 📱 Mobile app version
+* 🔔 Booking notifications (SMS/Email)
+* ⭐ User reviews & ratings
+
+---
+
+## 🧪 Testing
+
+* Unit testing for backend APIs
+* Manual testing for UI/UX
+* Cross-browser compatibility testing
+--
