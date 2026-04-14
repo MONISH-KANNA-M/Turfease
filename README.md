@@ -83,4 +83,19 @@ cd Turf_Ease
 pip install -r requirements.txt
 python app.pynpm install
 npm start
+```
 http://127.0.0.1:5000
+or 
+http://localhost:3000
+
+📊 System Workflow
+User registers/logs in
+Searches for available turfs
+Selects preferred time slot
+Confirms booking
+Admin manages bookings and updates availability
+
+
+---
+
+
